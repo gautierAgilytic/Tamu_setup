@@ -11,4 +11,4 @@ azcopy login --tenant-id '21472b8b-61c6-4277-a03c-2d3519bbff4c'
 
 
 # Apply this command to download the dataset from the azure storage
-azcopy copy 'https://datatopiatamu.blob.core.windows.net/standardized/' 'c:\test' --recursive
+azcopy copy 'https://datatopiatamu.blob.core.windows.net/' 'c:\test' --recursive
